@@ -41,9 +41,9 @@ class Node extends Controller
               $note->email = $request->email;
               $note->note  = $request->message;
                 $note->save();
- 
-       
-              return  bake();
+
+
+              return  back();
 
 
     }
