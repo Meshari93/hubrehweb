@@ -245,7 +245,7 @@ footer {
         border-bottom: 0;
         background: 0 0;
     }
-    .custom-navbar.top-nav-collapse {
+    .custom-navbar.top-nav-collapse { 
         background: #101010;
         padding: 0;
     }
