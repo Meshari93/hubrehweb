@@ -36,16 +36,11 @@ class Node extends Controller
     public function store(Request $request)
     {
           $note = new Note;
-
-              $note->name = $request->name;
-              $note->email = $request->email;
-              $note->note  = $request->message;
-                $note->save();
-
-
-              return  back();
-
-
+          $note->name = $request->name;
+          $note->email = $request->email;
+          $note->note  = $request->message;
+          $note->save();
+          return  back();
     }
 
     /**
