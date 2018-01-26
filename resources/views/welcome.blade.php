@@ -130,8 +130,8 @@
                   <h3> شاهد الفيديو التعريفي لتعرف اكثر</h3>
                </div>
                <div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
-                  <div class="embed-responsive embed-responsive-16by9">
-                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
+                  <div class="embed-responsive embed-responsive-16by9" >
+                     <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
                   </div>
                </div>
             </div>
