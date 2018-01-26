@@ -717,15 +717,39 @@ footer {
   }
 
   #contact .contact_detail {
-    margin-top: 82px;
-  }
+    margin-top: 82px;}}
+   
 
-}
+@media (min-width: 650px) { .imageapp{ margin: 15px; margin-right: 97%;}}
 
-@media (max-width: 760px) {
+@media (max-width: 650px) { .imageapp{ margin: 10px; margin-right: 97%;}}
 
-  #intro {
-    height: 100vh;
-  }
+@media (max-width: 600px) { .imageapp{ margin: 10px; margin-right: 97%;}}
 
-}
+@media (max-width: 550px) { .imageapp{ margin: 10px; margin-right: 97%;}}
+
+@media (max-width: 500px) {.imageapp{margin: 10px; margin-right: 83%;}}
+
+
+@media (max-width: 475px) { .imageapp{ margin: 5px; margin-right: 80%;}}
+
+@media (max-width: 450px) { .imageapp{ margin: 5px; margin-right: 71%;}}
+
+@media (max-width: 425px) { .imageapp{ margin: 5px; margin-right: 62%; }}
+
+@media (max-width: 400px) { .imageapp{ margin: 10px;margin-right: 53%;}}
+
+
+@media (max-width: 375px) { .imageapp{ margin: 5px; margin-right: 50%;}}
+
+@media (max-width: 350px) { .imageapp{ margin: 5px; margin-right: 41%;}}
+
+@media (max-width: 325px) { .imageapp{ margin: 5px; margin-right: 32%; }}
+
+@media (max-width: 300px) { .imageapp{ margin: 5px; margin-right: 23%; }}
+
+
+@media (min-width: 700px) { .imageapp{ margin: 15px; margin-right: -75%;}}
+@media (min-width: 900px) { .imageapp{ margin: 15px; margin-right: -50%;}}
+@media (min-width: 1100px) { .imageapp{ margin: 15px; margin-right: -100%;}}
+

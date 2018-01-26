@@ -60,15 +60,15 @@
                   <a href="#overview" class="btn btn-lg btn-default smoothScroll wow fadeInUp hidden-xs" data-wow-delay="2.3s">تعرف علينا اكثر</a>
                   <a href="#register" class="btn btn-lg btn-danger smoothScroll wow fadeInUp" data-wow-delay="2.3s">سجل الان</a>
                </div>
-            <ul class="footer--links footer--app-links" style="float:right; list-style-type: none;">
+            <ul class="footer--links footer--app-links" style="float:right; list-style-type: none; margin-top: 28px;">
                <li>
                   <a href="#" target="_blank">
-                  <img src="images/Apple.png" alt="apple" style="width:155px;height:50px; margin: 5px;margin-right: 40%;">
+                  <img src="images/Apple.png" alt="apple" class ="imageapp"  style="width:155px;height:50px;">
                   </a>
                </li>
                <li>
                   <a href="#" target="_blank">
-                  <img src="images/android.png" alt="android" style="width:155px;height:50px; margin: 5px;margin-right: 40%;">
+                  <img src="images/android.png" alt="android" class ="imageapp" style="width:155px;height:50px;">
                   </a>
                </li>
             </ul>
