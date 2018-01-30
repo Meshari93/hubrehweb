@@ -36,7 +36,13 @@
                <span class="icon icon-bar"></span>
                <span class="icon icon-bar"></span>
                </button>
-               <a href="#" class="navbar-brand">HUBREH</a>
+               <a href="#" class="navbar-brand">HUBREH
+                    
+                </a>
+                <a href="#" class="navbar-brand imagelogodev">
+                     <img src="images/logo.png" class="imagelogo">
+                </a>
+               
             </div>
             <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
@@ -51,9 +57,11 @@
       <!-- =========================
          INTRO SECTION
          ============================== -->
-      <section id="intro" class="parallax-section">
+      <section id="intro" class="parallax-section">        
          <div class="container">
+             
             <div class="row">
+                
                <div class="col-md-12 col-sm-12">
                   <h3 class="wow bounceIn" data-wow-delay="0.9s">تطبيق هب ريح يرحب بكم</h3>
                   <h1 class="wow fadeInUp" data-wow-delay="1.6s">سجل الآن ليصلك تنبيه عند الانطلاق </h1>

@@ -61,7 +61,7 @@ a {
 
 #overview,
 #register {
-  padding-top: 14rem;
+  padding-top: 5rem;
   padding-bottom: 14rem;
 }
 
@@ -258,7 +258,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg-min.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/backgroundHeader.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -279,8 +279,13 @@ footer {
   letter-spacing: 2px;
 }
 
+.imagelogo {
+    height: 50px;
+}
 
-
+.imagelogodev {
+    padding: 0px;
+}
 /*---------------------------------------
    Overview  section
 -----------------------------------------*/
@@ -681,7 +686,7 @@ footer {
 	line-height: 20px;
   }
 
-  #intro { height: 65vh; }
+  #intro { height: 110vh; }
 
  
 

@@ -14,7 +14,8 @@ class Node extends Controller
      */
     public function index()
     {
-        //
+        $count = Note::all();
+        return dd($count);
     }
 
     /**
@@ -35,6 +36,12 @@ class Node extends Controller
      */
     public function store(Request $request)
     {
+        $request->validate([
+        'name' => 'required|max:255',
+        'email' => 'required|unique:notes|max:255',
+        'message' => 'required',
+    ]);
+        
           $note = new Note;
           $note->name = $request->name;
           $note->email = $request->email;
