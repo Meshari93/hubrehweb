@@ -14,8 +14,7 @@ class Node extends Controller
      */
     public function index()
     {
-        $count = Note::all();
-        return dd($count);
+        //
     }
 
     /**

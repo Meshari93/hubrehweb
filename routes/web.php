@@ -18,7 +18,7 @@ Route::get('/', function () {
 
 Route::post('/register', 'RegisterCostomerController@store')->name('register');
 Route::post('/note', 'Node@store')->name('note');
-
- 
-Route::get('/indexn', 'Node@index')->name('indexn');
-Route::get('/indexr', 'RegisterCostomerController@index')->name('indexr');
+//
+// 
+//Route::get('/indexn', 'Node@index')->name('indexn');
+//Route::get('/indexr', 'RegisterCostomerController@index')->name('indexr');
