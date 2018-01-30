@@ -38,7 +38,7 @@ class RegisterCostomerController extends Controller
         $request->validate([
         'firstname' => 'required|max:255',
         'lastname' => 'required|max:255',
-        'phone' => 'unique:registers|max:10',
+        'phoneNumber' => 'unique:registers|max:10',
         'email' => 'required|unique:registers|max:255',
     ]);
         

@@ -160,7 +160,7 @@
                      {{ csrf_field() }}
                      <input name="firstname" type="text" class="form-control" id="firstname" required placeholder="الاسم الاول">
                      <input name="lastname" type="text" class="form-control" id="lastname" required placeholder="الاسم الاخير">
-                     <input name="phone" pattern="[0][5][0-9]{8}$" type="telephone" class="form-control" id="phone"  placeholder=" 0512345678 رقم التلفون">
+                     <input name="phoneNumber" pattern="[0][5][0-9]{8}$" type="telephone" class="form-control" id="phone"  placeholder=" 0512345678 رقم التلفون">
                      <input name="email" type="email"  class="form-control" id="email" required placeholder="بريد الاكتروني">
                      <div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
                         <input name="submit" type="submit" class="form-control" id="submit" value="سجل">
