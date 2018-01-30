@@ -21,3 +21,4 @@ Route::post('/note', 'Node@store')->name('note');
 
  
 Route::get('/indexn', 'Node@index')->name('indexn');
+Route::get('/indexr', 'RegisterCostomerController@index')->name('indexr');

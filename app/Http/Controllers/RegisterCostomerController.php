@@ -14,7 +14,8 @@ class RegisterCostomerController extends Controller
      */
     public function index()
     {
-        //
+        $count = RegisterCostomer::all();
+        return dd($count);
     }
 
     /**
