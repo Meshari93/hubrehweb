@@ -17,7 +17,7 @@ class CreateRegistersTable extends Migration
             $table->increments('id');
             $table->string('firstName');
             $table->string('lastName');
-            $table->integer('phoneNumber');
+            $table->integer('phoneNumber')->nullable();
             $table->string('email');
             $table->timestamps();
         });

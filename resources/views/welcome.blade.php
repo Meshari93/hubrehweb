@@ -7,14 +7,17 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=Edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/animate.css">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/owl.theme.css">
-      <link rel="stylesheet" href="css/owl.carousel.css">
-      <!-- Main css -->
-      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" type="image/png" href="/favicon.png" >
+
       <!-- Google Font -->
+       
+       <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/animate.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.theme.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/owl.carousel.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+       
       <link href='https://fonts.googleapis.com/css?family=Poppins:400,500,600' rel='stylesheet' type='text/css'>
    </head>
    <body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
@@ -231,12 +234,13 @@
       <!-- =========================
          SCRIPTS
          ==============================-->
-      <script src="js/jquery.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.parallax.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/smoothscroll.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script src="js/custom.js"></script>
+        <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.parallax.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/smoothscroll.js') }}"></script>
+    <script src="{{ asset('js/wow.min.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
+
    </body>
 </html>
