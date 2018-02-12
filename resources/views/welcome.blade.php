@@ -142,7 +142,7 @@
                </div>
                <div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
                   <div class="embed-responsive embed-responsive-16by9" >
-                     <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/XDPwXQjAlB0" allowfullscreen></iframe>
+                     <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/m499W5k-iL0" allowfullscreen></iframe>
                   </div>
                </div>
             </div>
@@ -161,10 +161,10 @@
                <div class="wow fadeInUp col-md-5 col-sm-5" data-wow-delay="1s">
                   <form method="POST" action="{{ route('register') }}">
                      {{ csrf_field() }}
-                     <input name="firstname" type="text" class="form-control" id="firstname" required placeholder="الاسم الاول">
-                     <input name="lastname" type="text" class="form-control" id="lastname" required placeholder="الاسم الاخير">
-                     <input name="phoneNumber" pattern="[0][5][0-9]{8}$" type="telephone" class="form-control" id="phone"  placeholder=" 0512345678 رقم التلفون">
-                     <input name="email" type="email"  class="form-control" id="email" required placeholder="بريد الاكتروني">
+                     <input name="firstname" maxlength="50" type="text" class="form-control" id="firstname" required placeholder="الاسم الاول">
+                     <input name="lastname"  type="text" class="form-control" id="lastname" maxlength="50" required placeholder="الاسم الاخير">
+                     <input name="phoneNumber" pattern="[0][5][0-9]{8}$" type="telephone" class="form-control" id="phone"  placeholder=" 0512345678 رقم التلفون" maxlength="10">
+                     <input name="email" type="email"  class="form-control" id="email" required placeholder="بريد الاكتروني" maxlength="50">
                      <div class="col-md-offset-6 col-md-6 col-sm-offset-1 col-sm-10">
                         <input name="submit" type="submit" class="form-control" id="submit" value="سجل">
                      </div>
@@ -197,9 +197,9 @@
                      </div>
                      <form method="POST" action="{{ route('note') }}">
                         {{ csrf_field() }}
-                        <input name="name" type="text" class="form-control" id="name" placeholder="الاسم">
-                        <input name="email" type="email" class="form-control" id="email" placeholder="البريد الاكتروني">
-                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="نص الرسالة"></textarea>
+                        <input name="name" maxlength="50" type="text" class="form-control" id="name" placeholder="الاسم">
+                        <input name="email" type="email" class="form-control" id="email" maxlength="50" placeholder="البريد الاكتروني">
+                        <textarea name="message" rows="5" class="form-control" id="message" maxlength="410" placeholder="نص الرسالة"></textarea>
                         <div class="col-md-6 col-sm-10">
                            <input name="submit" type="submit" class="form-control" id="submit" value="ارسال">
                         </div>

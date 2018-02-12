@@ -38,7 +38,7 @@ class Node extends Controller
         $request->validate([
         'name' => 'required|max:255',
         'email' => 'required|unique:notes|max:255',
-        'message' => 'required',
+        'message' => 'required|max:200',
     ]);
         
           $note = new Note;
